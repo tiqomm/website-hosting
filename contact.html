@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <title>sibuk-sibuk-dulu</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+     <!-- header section strats -->
+   <div class="hero_bg_box">
+    <div class="img-box">
+      <img src="images/hero-bg.jpg" alt="">
+    </div>
+    
+  </div>
+
+  <header class="header_section">
+    <div class="header_top">
+      <div class="container-fluid">
+        <div class="contact_link-container">
+          <a href="" class="contact_link1">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>
+              Politeknik Pertanian Negeri Pangkajene Kepulauan 
+            </span>
+          </a>
+          <a href="" class="contact_link2">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>
+              Call : +628124238484
+            </span>
+          </a>
+          <a href="" class="contact_link3">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span>
+              ridwanassaad@gmail.com
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="header_bottom">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="service.html">
+            <span class="judul"style="margin-left: 80px; font-size: 30px;">
+             Politeknik Pertanian Negeri Pangkajene Kepulauan
+            </span>
+          </a>
+          <span class="gambar2" style="color:white;font-size: 25px; margin-bottom: -60px; margin-left: -800px;">jurusan Teknologi Produksi Pertanian</span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""></span>
+          </button>
+
+          <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html"> About</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="service.html"> Formulir</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <img class="gambar1" src="images/politani.png" style="margin-top:-70px;margin-bottom:10px;z-index: 7; margin-left:15px;border-radius: 100%;width:70px;" alt="">
+  <!-- end header section -->
+   <!-- contact section -->
+<div style="background-color: #333;  padding-top: 10px; padding-bottom: 10px;">
+  <div class="container1">
+    <div class="card">
+        <!-- Image Section -->
+        <img src="images/etta.jpg" alt="Image of Contact" data-bs-toggle="modal" data-bs-target="#imageModal">
+        <!-- Content Section -->
+        <h2>HUBUNGI NOMOR DIBAWAH INI</h2>
+        <h3>08124238484</h3>
+        <p>Silakan hubungi nomor tersebut untuk informasi lebih lanjut atau untuk keperluan lainnya. Kami siap membantu Anda!</p>
+    </div>
+    <!-- Form Section -->
+    <form id="feedbackForm" action="" onsubmit="sendWhatsAppMessage(event)">
+        <div class="mb-3">
+            <label for="name" class="form-label">Nama Anda</label>
+            <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Pesan/Kesan</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Tulis pesan atau kesan Anda" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning w-100" style="margin-bottom:30px;">Kirim ke WhatsApp</button>
+    </form> 
+  </div>
+
+<!-- Modal for Image -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">Gambar Besar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="images/etta.jpg" alt="Enlarged Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+  </div>
+
+<!-- Bootstrap JS and Popper -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+
+<!-- JavaScript for WhatsApp Message -->
+<script>
+    function sendWhatsAppMessage(event) {
+        event.preventDefault(); // Mencegah form agar tidak melakukan submit biasa
+        
+        // Mengambil nilai dari form
+        const name = document.getElementById('name').value;
+        const message = document.getElementById('message').value;
+
+        // Nomor WhatsApp dalam format internasional
+        const whatsappNumber = '628124238484';
+
+        // Membuat isi pesan dengan input dari pengguna
+        const fullMessage = `Nama: ${name}\nPesan/Kesan: ${message}`;
+
+        // URL WhatsApp Web dengan pesan terisi
+        const whatsappURL = `https://web.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(fullMessage)}`;
+
+        // Membuka WhatsApp Web di tab baru dengan pesan yang terisi
+        window.open(whatsappURL, '_blank');
+    }
+</script>
+
+  <!-- end contact section -->
+</div>
+
+  <!-- info section -->
+  <section class="info_section ">
+    <div style=" margin-left: 550px;"class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_logo">
+            <a class="navbar-brand" href="index.html">
+              <span style="font-weight: normal;">
+                Qoutes
+              </span>
+            </a>
+            <p>
+              Di setiap pohon yang tumbuh, ada harapan dan impian yang berakar dalam tanah.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_links">
+            <h5>
+              Useful Link
+            </h5>
+            <ul>
+              
+              <li>
+                <a href="https://www.tptppolitani.com/beranda">
+                  PS TPTP Polinpangkep
+                </a>
+              </li>
+              <li>
+                <a href="https://polipangkep.ac.id/">
+                  Politeknik Pertanian Negeri Pangkajene Kepulauan
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Contact Us
+            </h5>
+          </div>
+          <div class="info_contact">
+            <a href="" class="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Politeknik Pertanian Negeri Pangkajene Kepulauan 
+              </span>
+            </a>
+            <a href="" class="contact_link2">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call : +628124238484
+              </span>
+            </a>
+            <a href="" class="contact_link3">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span>
+                ridwanassaad@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section">
+    <p>
+      &copy; <span id="currentYear"></span> design by.Tiqom
+    </p>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
